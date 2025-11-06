@@ -49,8 +49,16 @@ export default async function HomePage() {
             </p>
           </CardHeader>
           <CardContent>
-            {/* The "whitespace-pre-wrap" is important to show line breaks */}
-            <p className="whitespace-pre-wrap">{insight.output_analysis}</p>
+            {insight.output_analysis === "Processing..." ? (
+            <p className="text-gray-500 italic">
+            {/* You could add a loading spinner here */}
+            Processing...
+            </p>
+            ) : (
+            <p className="whitespace-pre-wrap">
+            {insight.output_analysis}
+            </p>
+            )}
           </CardContent>
         </Card>
       ))}
