@@ -17,7 +17,7 @@ app = FastAPI()
 # --- CORS Middleware ---
 origins = [
     "http://localhost:3000",
-    "https://[your-vercel-app-url].vercel.app" # Add your Vercel URL
+    "https://ai-insights-app-lovat.vercel.app" # Add your Vercel URL
 ]
 app.add_middleware(
     CORSMiddleware,
