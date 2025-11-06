@@ -1,4 +1,5 @@
 // app/page.tsx
+export const dynamic = 'force-dynamic';
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button"; // Import the Shadcn Button
 import Link from "next/link"; // Import the Next.js Link
