@@ -6,10 +6,10 @@ This is a full-stack web application built to provide AI-powered insights on mee
 
 ## Features
 
-* ** Transcript Insight:** Paste a meeting transcript and its metadata. The app analyzes what went well, what could be improved, and provides recommendations for the next meeting.
-* ** LinkedIn Icebreaker:** Paste a person's LinkedIn bio and a summary of your pitch deck. The app generates a detailed icebreaker, identifies buying signals, and provides smart discovery questions.
-* ** Async Task Queue:** User submissions are instant. Jobs are sent to a background queue, and the frontend shows a "Processing..." status.
-* ** Real-time Polling:** The frontend automatically polls the backend and updates the UI from "Processing..." to the final AI-generated text without requiring a page refresh.
+* **Transcript Insight:** Paste a meeting transcript and its metadata. The app analyzes what went well, what could be improved, and provides recommendations for the next meeting.
+* **LinkedIn Icebreaker:** Paste a person's LinkedIn bio and a summary of your pitch deck. The app generates a detailed icebreaker, identifies buying signals, and provides smart discovery questions.
+* **Async Task Queue:** User submissions are instant. Jobs are sent to a background queue, and the frontend shows a "Processing..." status.
+* **Real-time Polling:** The frontend automatically polls the backend and updates the UI from "Processing..." to the final AI-generated text without requiring a page refresh.
 
 ## Tech Stack
 
