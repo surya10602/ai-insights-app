@@ -4,14 +4,14 @@ This is a full-stack web application built to provide AI-powered insights on mee
 
 
 
-## ✨ Features
+## Features
 
-* **🔹 Transcript Insight:** Paste a meeting transcript and its metadata. The app analyzes what went well, what could be improved, and provides recommendations for the next meeting.
-* **🔹 LinkedIn Icebreaker:** Paste a person's LinkedIn bio and a summary of your pitch deck. The app generates a detailed icebreaker, identifies buying signals, and provides smart discovery questions.
-* **🚀 Async Task Queue:** User submissions are instant. Jobs are sent to a background queue, and the frontend shows a "Processing..." status.
-* **🔄 Real-time Polling:** The frontend automatically polls the backend and updates the UI from "Processing..." to the final AI-generated text without requiring a page refresh.
+* ** Transcript Insight:** Paste a meeting transcript and its metadata. The app analyzes what went well, what could be improved, and provides recommendations for the next meeting.
+* ** LinkedIn Icebreaker:** Paste a person's LinkedIn bio and a summary of your pitch deck. The app generates a detailed icebreaker, identifies buying signals, and provides smart discovery questions.
+* ** Async Task Queue:** User submissions are instant. Jobs are sent to a background queue, and the frontend shows a "Processing..." status.
+* ** Real-time Polling:** The frontend automatically polls the backend and updates the UI from "Processing..." to the final AI-generated text without requiring a page refresh.
 
-## 💻 Tech Stack
+## Tech Stack
 
 * **Frontend:** Next.js, React, Tailwind CSS, Shadcn UI
 * **Backend:** FastAPI (Python)
@@ -20,7 +20,7 @@ This is a full-stack web application built to provide AI-powered insights on mee
 * **Task Queue:** Arq (Python), Upstash (Redis)
 * **Deployment:** Vercel (Frontend), Render (Backend Web Service)
 
-## 🏗️ Application Architecture
+## Application Architecture
 
 This project is deployed on a "free-tier-friendly" model, running the entire backend in a single Render Web Service.
 
@@ -32,7 +32,7 @@ This project is deployed on a "free-tier-friendly" model, running the entire bac
 6.  The worker updates the "Processing..." entry in **Supabase** with the final text.
 7.  The **Next.js Frontend** polls the `/insights` endpoint every 3 seconds (only while a job is processing) and updates the UI live as soon as the change is detected.
 
-## 🚀 Local Setup & Installation
+## Local Setup & Installation
 
 To run this project locally, you will need two terminals.
 
